@@ -32,7 +32,7 @@
 
 .body
 {
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #desktop
@@ -43,7 +43,7 @@
   display: grid;
   grid-template-columns: repeat(42,3%);
   grid-template-rows: repeat(200, 2%);
-	overflow-x: hidden;
+
 }
 .frame
 {
@@ -191,7 +191,6 @@
 }
 .story
 {
-  width: 278px;
   font-family: Gilroy-Medium;
   color: #010BFF;
   font-size: 2vw;
