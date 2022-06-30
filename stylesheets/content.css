@@ -112,6 +112,10 @@
   grid-row-start: 4;
   grid-row-end: 29;
 }
+.er
+{
+  width: 42vw;
+}
 .bannertextblock
 {
   border-style: solid;
@@ -256,13 +260,13 @@
   grid-row-end: 56;
   overflow: hidden;
   z-index: 0;
-  background-image: url('../img/technolog.svg' 0);
+  background-image: url('../img/childhood.svg' 0);
   background-repeat: no-repeat;
   background-size: 120%;
 }
 
 .first:hover{
-  background-image: url('../img/technolog.svg');
+  background-image: url('../img/childhood.svg');
   background-repeat: no-repeat;
   background-size: 135%;
   z-index: 0;
@@ -433,9 +437,9 @@
   grid-row-end: 60;
 }
 .three:hover{
-  background-image: url('../img/technolog.svg');
+  background-image: url('../img/abstract.svg');
   background-repeat: no-repeat;
-  background-size: 127%;
+  background-size: 120%;
   z-index: 0;
 }
 .world
@@ -512,9 +516,9 @@
   grid-row-end: 80;
 }
 .four:hover{
-  background-image: url('../img/technolog.svg');
+  background-image: url('../img/admin.svg');
   background-repeat: no-repeat;
-  background-size: 127%;
+  background-size: 125%;
   z-index: 0;
 }
 .tehnolog
@@ -591,9 +595,9 @@
   grid-row-end: 80;
 }
 .five:hover{
-  background-image: url('../img/technolog.svg');
+  background-image: url('../img/woorld.svg');
   background-repeat: no-repeat;
-  background-size: 127%;
+  background-size: 112%;
   z-index: 0;
 }
 .univ
@@ -669,9 +673,9 @@
   grid-row-end: 80;
 }
 .six:hover{
-  background-image: url('../img/technolog.svg');
+  background-image: url('../img/silence.svg');
   background-repeat: no-repeat;
-  background-size: 127%;
+  background-size: 125%;
   z-index: 0;
 }
 .silence
@@ -770,6 +774,13 @@
   grid-row-start: 85;
   grid-row-end: 110;
 }
+.kepka
+{
+  position: relative;
+  left: 34vw;
+    top: 20vh;
+    width: 24vw;
+}
 .info
 {
   border-style: solid;
@@ -781,6 +792,100 @@
   grid-column-start: 21;
   grid-column-end: 32;
   grid-row-start: 85;
+  grid-row-end: 110;
+}
+.promo
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 3px;
+  border-color: #010BFF;
+  grid-column-start: 21;
+  grid-column-end: 32;
+  grid-row-start: 85;
+  grid-row-end: 92;
+}
+.find
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 3px;
+    border-color: #010BFF;
+    grid-column-start: 21;
+    grid-column-end: 32;
+    grid-row-start: 92;
+    grid-row-end: 99;
+}
+.place
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 3px;
+  border-color: #010BFF;
+  grid-column-start: 21;
+  grid-column-end: 27;
+  grid-row-start: 99;
+  grid-row-end: 104;
+}
+.time
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 27;
+  grid-column-end: 32;
+  grid-row-start: 99;
+  grid-row-end: 104;
+}
+.social
+{
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 27;
+  grid-column-end: 32;
+  grid-row-start: 104;
+  grid-row-end: 110;
+}
+.contact
+{
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 21;
+  grid-column-end: 27;
+  grid-row-start: 104;
   grid-row-end: 110;
 }
 .decor2
@@ -815,4 +920,55 @@
   font-family: Gilroy-Light;
   color: #010BFF;
   font-size: 14vw;
+}
+.promotext
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 6vw;
+      margin-left: 1.2vw;
+}
+.findus
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 3.7vw;
+}
+.point
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 1vw;
+  margin-left: -2vw;
+}
+.otc
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 1vw;
+  margin-left: 1vw;
+}
+.sl
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 1vw;
+  margin-left: 1.2vw;
+    margin-top: 1.4vw;
+}
+.call
+{
+  font-family: Gilroy-Medium;
+  color: #010BFF;
+  font-size: 1vw;
+  margin-left: 1.2vw;
+  margin-top: 1.4vw;
+}
+.textf
+{
+  font-family: Gilroy-Medium;
+  color: #FFFF;
+  font-size: 2.1vw;
+  margin-left: 3.2vw;
+  margin-top: 3.4000000000000004vw;
 }
