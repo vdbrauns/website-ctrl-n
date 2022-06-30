@@ -138,6 +138,8 @@
   font-size: 15vw;
   justify-content: center;
   align-items: center;
+  margin-top: 3vw;
+    margin-left: 1vw;
 }
 .strelka
 {
@@ -262,13 +264,13 @@
   z-index: 0;
   background-image: url('../img/childhood.svg' 0);
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: 150%;
 }
 
 .first:hover{
   background-image: url('../img/childhood.svg');
   background-repeat: no-repeat;
-  background-size: 135%;
+  background-size: 150%;
   z-index: 0;
 }
 .child
@@ -360,7 +362,7 @@
 .two:hover{
   background-image: url('../img/technolog.svg');
   background-repeat: no-repeat;
-  background-size: 135%;
+  background-size: 150%;
   z-index: 0;
 }
 .career
@@ -439,7 +441,7 @@
 .three:hover{
   background-image: url('../img/abstract.svg');
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: 140%;
   z-index: 0;
 }
 .world
@@ -518,7 +520,7 @@
 .four:hover{
   background-image: url('../img/admin.svg');
   background-repeat: no-repeat;
-  background-size: 125%;
+  background-size: 150%;
   z-index: 0;
 }
 .tehnolog
@@ -597,7 +599,7 @@
 .five:hover{
   background-image: url('../img/woorld.svg');
   background-repeat: no-repeat;
-  background-size: 112%;
+  background-size: 135%;
   z-index: 0;
 }
 .univ
@@ -675,7 +677,7 @@
 .six:hover{
   background-image: url('../img/silence.svg');
   background-repeat: no-repeat;
-  background-size: 125%;
+  background-size: 149%;
   z-index: 0;
 }
 .silence
@@ -971,4 +973,113 @@
   font-size: 2.1vw;
   margin-left: 3.2vw;
   margin-top: 3.4000000000000004vw;
+}
+.ben
+{
+  text-decoration: none;
+}
+.desktop2
+{
+  overflow-x: hidden;
+  overflow-x: hidden;
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(42,3%);
+  grid-template-rows: repeat(200, 2%);
+}
+.frame1
+{
+  position: relative;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 86;
+  color: #010BFF;
+}
+.name
+{
+  border-style: solid;
+  border-top-width: 3px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 2;
+  grid-column-end: 35;
+  grid-row-start: 4;
+  grid-row-end: 20;
+}
+.nametext
+{
+  font-family: Gilroy-Light;
+    color: #010BFF;
+    font-size: 17vw;
+    margin-left: 1.2000000000000002vw;
+    margin-top: -0.5999999999999996vw;
+}
+.main
+{
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 2;
+  grid-column-end: 35;
+  grid-row-start: 20;
+  grid-row-end: 78;
+}
+.txb
+{
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 0px;
+  border-color: #010BFF;
+  grid-column-start: 2;
+  grid-column-end: 22;
+  grid-row-start: 20;
+  grid-row-end: 70;
+}
+.pic
+{
+  display: block;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-color: #010BFF;
+  grid-column-start: 22;
+  grid-column-end: 36;
+  grid-row-start: 20;
+  grid-row-end: 78;
+  width: 115%;
+}
+.txm
+{
+  font-family: Gilroy-Medium;
+    color: #010BFF;
+    font-size: 1.9vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
+
+}
+.txn
+{
+  font-family: Gilroy-Medium;
+    color: #010BFF;
+    font-size: 6vw;
+    margin-left: 1.2000000000000002vw;
+    margin-top: 25vw;
 }
